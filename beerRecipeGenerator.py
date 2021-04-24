@@ -5,7 +5,7 @@
 
 # Creating a generator that will generate the data row by row
 def beerRecipeGenerator():
-    file = "/Users/tomcraig/Documents/BeCloudReady/Git/generator/recipeData.csv"
+    file = "recipeData.csv"
     for row in open(file, encoding="ISO-8859-1"):
         yield row
 
